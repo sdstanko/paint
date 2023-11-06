@@ -1,0 +1,40 @@
+.colorPicker {
+	display: flex;
+	align-items: center;
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	padding: 0 5px;
+
+	&__palette {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 220px;
+		margin: 0 10px;
+	}
+
+	&__square {
+		width: 20px;
+		height: 20px;
+		margin: 1px;
+		border: 1px solid rgb(177, 166, 166);
+		cursor: pointer;
+	}
+}
+
+.chooseColorItem {
+	padding: 3px 5px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+
+	&__selected {
+		background-color: #c9dff7;
+		border: 1px solid #7bb2e9;
+	}
+}
+
+.colorBlock {
+	width: 40px;
+	height: 40px;
+	border: 1px solid gray;
+}

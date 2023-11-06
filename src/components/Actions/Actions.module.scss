@@ -1,0 +1,48 @@
+.actions {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.paintIcon {
+	display: block;
+	position: relative;
+	width: 25px;
+	height: 25px;
+	margin: 0 10px;
+}
+
+.separator {
+	width: 1px;
+	height: 20px;
+	background-color: grey;
+}
+
+.btns {
+	margin: 0 5px;
+	display: flex;
+}
+
+.action {
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	background: url('../../assets/icons/undo-svgrepo-com.svg') no-repeat center;
+	cursor: pointer;
+}
+
+.undo {}
+
+.redo {
+	transform: scale(-1, 1);
+}
+
+.filename {
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	margin-left: 5px;
+}
